@@ -1,0 +1,38 @@
+安装方法：
+
+环境要求：建议使用php7.2版本，最低支持版本为php5.6。
+
+Docker搭建步骤：
+
+1、安装Docker
+
+2、下载源码，并在终端（命令行程序）cd 到 duckchat.sh 所在目录。
+
+3、启动/关闭程序
+
+sudo sh duckchat.sh
+
+sudo sh duckchat.sh stop
+
+Linux下搭建步骤：
+
+1、搭建PHP + Nginx服务，配置phpfpm、nginx，并启动成功。
+
+2、下载源代码，复制src目录下的所有内容，到网站根目录。
+
+3、为根目录和所有子目录赋予权限。(执行命令：chmod -R 777 .)
+
+Windows下搭建步骤：
+
+1、下载 XAMPP 安装后服务。
+
+2、找到 XAMPP 的网站根目录[xampp安装地址]/htdocs，删除原有的默认代码。
+
+3、下载源代码，复制src目录下的内容到网站根目录
+
+4、启动 XAMPP Control 管理平台，点击启动apache。
+
+5、打开浏览器，访问localhost，程序部署安装完毕。
+
+
+演示站：http://im.dalubaba.com
