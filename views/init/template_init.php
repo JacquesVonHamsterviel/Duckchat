@@ -10,23 +10,7 @@
                         <textarea disabled>
 提醒您：在使用软件前，请您务必仔细阅读并透彻理解本声明。
 
-1. 如果您使用本软件，您的使用行为将被视为对本声明全部内容的认可。除非您已充分阅读、完全理解并接受本协议所有条款，否则您无权使用服务。您点击“同意”或“下一步”，或您使用服务，或者以其他任何明示或者默示方式表示接受本协议的，均视为您已阅读并同意签署本协议。本协议即在您与我公司之间产生法律效力，成为对双方均具有约束力的法律文件。
-2. 本软件的著作权归我公司所有，您可以免费使用此软件，可以用在营利性、非营利性活动中，但不允许您以营利性目的再次分发此软件。
-3. 本协议是此软件著作权的一部分，不允许修改此软件的所有权及本安装协议，不允许修改代码删除安装过程中的本协议确认过程，如违反则视为对我著作权的侵犯。
-4. 您在运营站点的过程中，请相关法律法规，对在站点上存储、传播的内容做好管控并对相关后果负全部责任，相关行为包括但不限于：
-    - 反对宪法所确定的基本原则的。
-    - 危害国家安全，泄露国家秘密，颠覆国家政权，破坏国家统一的。
-    - 损害国家荣誉和利益的。
-    - 煽动民族仇恨、民族歧视，破坏民族团结的。
-    - 破坏国家宗教政策，宣扬邪教和封建迷信的。
-    - 散布谣言，扰乱社会秩序，破坏社会稳定的。
-    - 散布淫秽、色情、赌博、暴力、凶杀、恐怖或者教唆犯罪的。
-    - 侮辱或者诽谤他人，侵害他人合法权益的。
-    - 其他相关法律法规约定。
-4. 若本协议有中文、英文等多个语言版本，相应内容不一致的，均以中文版的内容为准。
-5. 本协议的签署地为北京市朝阳区。
-6. 对此条款的解释、修改及更新权均属于我公司所有。
-
+用户协议及免责声明
 
                         </textarea>
         </div>
@@ -112,7 +96,7 @@
                 {{/if}}
             </div>
         </div>
-
+<!---
         <div class="init_check_info justify-content-left  ext_is_write" isLoad="{{isLoadProperties}}">
             <div class="init_check isLoadProperties">
                 5.是否可以加载语言包
@@ -125,10 +109,10 @@
                 {{/if}}
             </div>
         </div>
-
+--->
         <div style="margin-top:4rem;  text-align: center;">
             <button class="previte_init_protocol" data-local-value="prevStepTip">上一步</button>
-            <button class="next_init_data" style="background:rgba(201,201,201,1);"  disabled data-local-value="nextStepTip">下一步</button>
+            <button class="next_init_data" style="background:rgba(201,201,201,1);"   data-local-value="nextStepTip">下一步</button>
         </div>
         <div style="text-align: center; margin-top:4rem;margin-bottom: 3rem;">
             <a class="phpinfo" href="./{{phpinfo}}" target="_blank"  data-local-value="phpinfoTip">查看当前PHP环境</a>
